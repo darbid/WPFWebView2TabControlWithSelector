@@ -62,6 +62,7 @@ namespace WPFWebView2TabControlWithSelector
         {
             BrowserTabItemViewModel btivm = new();
             btivm.AddNewTab(e);
+            btivm.BrowserTabType = BaseViewModel.BrowserTabTypes.OtherBrowser;
             btivm.BrowserTabNewWindowRequestedEvent += Btivm_BrowserTabNewWindowRequestedEvent;
             TabCollection.Add(btivm);
             BrowserTabControlSelectedIndex = TabCollection.Count - 1;

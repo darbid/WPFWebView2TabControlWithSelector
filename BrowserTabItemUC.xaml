@@ -11,5 +11,8 @@
         <local:WPFTabBrowser x:Name="WebView"
                      CoreWebView2InitializationCompleted="WebView_CoreWebView2InitializationCompleted"
                      Source="{Binding Path=Source, Mode=TwoWay}"/>
+        <!--<wv:WebView2 x:Name="WebView"
+                             CoreWebView2InitializationCompleted="WebView_CoreWebView2InitializationCompleted"
+                             Source="{Binding Path=Source, Mode=TwoWay}" />-->
     </Grid>
 </UserControl>

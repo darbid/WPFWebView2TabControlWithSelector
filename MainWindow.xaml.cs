@@ -26,7 +26,8 @@ namespace WPFWebView2TabControlWithSelector
         }
         private void BrowserTabControl_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            this.BrowserTabControl.UpdateLayout();
+            //was checking if this helped
+            //this.BrowserTabControl.UpdateLayout();
         }
     }
 }
